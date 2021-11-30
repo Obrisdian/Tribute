@@ -8,7 +8,7 @@ import * as H from "../TributeTitles";
 import * as A from "../TributeText";
 import * as Y from "../TributeYears";
 import theme from "../../theme";
-import  * as F from "../Footer"
+import * as F from "../Footer";
 type Props = {
   id?: number;
 };
@@ -58,7 +58,7 @@ export const TributePage5: FC<Props> = ({ id }) => {
           tab_fontSize="16px"
           tab_width="294px"
           tab_height="33px"
-  display="none"
+          display="none"
         />
 
         <A.TributeText
@@ -132,27 +132,28 @@ export const TributePage5: FC<Props> = ({ id }) => {
           phone_font="12px"
           phone_width="150px"
         />
+        
         <F.TributeArrow
-  image_url="down.png"
-  width="30px"
-  height="45px"
-  left="800px"
-  top="735px"
-  link="/#page6"
-  tab_left="383px"
-  phone_left="170px"
-  />
+          image_url="down.png"
+          width="30px"
+          height="45px"
+          left="800px"
+          top="735px"
+          link="/#page6"
+          tab_left="383px"
+          phone_left="170px"
+        />
 
-<F.TributeArrow
-  image_url="up.png"
-  width="30px"
-  height="45px"
-  left="850px"
-  top="725px"
-  link="/#page4"
-  tab_left="403px"
-  phone_left="190px"
-  />
+        <F.TributeArrow
+          image_url="up.png"
+          width="30px"
+          height="45px"
+          left="850px"
+          top="725px"
+          link="/#page4"
+          tab_left="403px"
+          phone_left="190px"
+        />
       </div>
     </S.FormBody>
   );

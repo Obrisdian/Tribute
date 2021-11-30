@@ -18,12 +18,12 @@ type Props = {
   tab_left?: string;
   tab_top?: string;
   tab_fontSize?: string;
-  phone_width?:string;
-  phone_height?:string;
-  phone_left?:string;
-  phone_top?:string;
-  phone_fontSize?:string;
-  display?:string;
+  phone_width?: string;
+  phone_height?: string;
+  phone_left?: string;
+  phone_top?: string;
+  phone_fontSize?: string;
+  display?: string;
 };
 
 export const TributeTitle: FC<Props> = ({
@@ -46,7 +46,7 @@ export const TributeTitle: FC<Props> = ({
   phone_left,
   phone_top,
   phone_fontSize,
-  display
+  display,
 }) => {
   return (
     <S.Title

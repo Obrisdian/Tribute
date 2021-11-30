@@ -10,14 +10,13 @@ type StyleProps = {
   top: string;
   fontSize: string;
   lineHeight?: string;
-  tab_left?:string;
-  tab_top?:string;
-  phone_left?:string;
-  phone_top?:string;
- 
+  tab_left?: string;
+  tab_top?: string;
+  phone_left?: string;
+  phone_top?: string;
 };
 
-export const Years = styled.div <StyleProps>`
+export const Years = styled.div<StyleProps>`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,8 +28,8 @@ export const Years = styled.div <StyleProps>`
   font-size: ${(props) => props.fontSize};
   color: rgba(58, 84, 138, 0.87);
   position: absolute;
-  width:  ${(props) => props.width};
-  height:  ${(props) => props.height};
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
   margin-left: ${(props) => props.left};
   margin-top: ${(props) => props.top};
 
@@ -45,12 +44,11 @@ export const Years = styled.div <StyleProps>`
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size:36px;
+    font-size: 36px;
     color: rgba(58, 84, 138, 0.87);
     position: absolute;
     margin-left: ${(props) => props.tab_left};
     margin-top: ${(props) => props.tab_top};
-
   }
   @media only screen and (max-width: 500px) {
     display: flex;
@@ -61,11 +59,10 @@ export const Years = styled.div <StyleProps>`
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size:36px;
+    font-size: 36px;
     color: rgba(58, 84, 138, 0.87);
     position: absolute;
     margin-left: ${(props) => props.phone_left};
     margin-top: ${(props) => props.phone_top};
   }
 `;
-

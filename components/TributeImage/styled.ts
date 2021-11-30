@@ -21,19 +21,19 @@ export const Image = styled.image`
   height: auto;
   object-fit: cover;
   display: flex;
-  @media only screen and (max-width: 900px) {
+  @media (min-width:500px) and (max-width: 900px) {
     display: flex;
     position: absolute;
     width: 80%;
     height: 80%;
   }
-  @media only screen and (max-width: 500px) {
+  @media (min-width:400px) and (max-width: 500px) {
     display: flex;
     position: absolute;
     width: 40%;
     height: 40%;
   }
-  @media only screen and (max-width: 400px) {
+  @media (min-width:320px) and (max-width: 400px) {
     display: flex;
     position: absolute;
     width: 35%;
@@ -56,7 +56,7 @@ export const ImageBox = styled.div<StyleProps>`
     position: absolute;
     width: ${(props) => props.width};
     height: ${(props) => props.height};
-    margin-left:${(props) => props.tab_left};
+    margin-left: ${(props) => props.tab_left};
     margin-top: ${(props) => props.tab_top};
   }
 
