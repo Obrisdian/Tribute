@@ -20,15 +20,23 @@ type StyleProps = {
 };
 export const Image = styled.image`
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  left: auto;
+  right: auto;
   height: 100%;
-  object-fit: fill;
-  object-position: 50% 50%;
-  display: flex;
+  object-fit: cover;
+   display: flex;
   overflow:hidden;
-  
-
+ 
+  @media only screen and (max-width: 500px) {
+  display: flex;
+  width: 100%;
+  left: auto;
+  right: auto;
+  height: 100%;
+  object-fit: none;
+  object-position:center;
+  overflow:hidden;
+ 
 `;
 
 export const ImageBox = styled.div<StyleProps>`
@@ -51,7 +59,7 @@ export const ImageBox = styled.div<StyleProps>`
 
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     display: flex;
     position: absolute;
     width: ${(props) => props.phone_width};
