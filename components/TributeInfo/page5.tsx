@@ -43,6 +43,10 @@ export const TributePage5: FC<Props> = ({ id }) => {
           phone_left="2px"
           tab_top="390px"
           phone_top="380px"
+          tab_width="277px"
+          tab_height="206px"
+          phone_width="162px"
+          phone_height="124px"
         />
         <H.TributeTitle
           title_text="Norman Borlaug's 2005 speech"
@@ -112,6 +116,10 @@ export const TributePage5: FC<Props> = ({ id }) => {
           phone_left="199px"
           tab_top="97px"
           phone_top="127px"
+          tab_width="277px"
+          tab_height="206px"
+          phone_width="162px"
+          phone_height="124px"
         />
         <A.TributeText
           text="In his 2005 speech, Norman Bourlaug stated that 'we will have to double the world's food supply by 2050.'

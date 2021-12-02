@@ -43,6 +43,10 @@ export const TributePage3: FC<Props> = ({ id }) => {
           phone_left="2px"
           tab_top="478px"
           phone_top="380px"
+          tab_width="294px"
+          tab_height="207px"
+          phone_width="163px"
+          phone_height="121px"
         />
         <H.TributeTitle
           title_text="1937  US Forestry Service"
@@ -114,6 +118,10 @@ export const TributePage3: FC<Props> = ({ id }) => {
           phone_left="229px"
           tab_top="97px"
           phone_top="127px"
+          tab_width="294px"
+          tab_height="195px"
+          phone_width="159px"
+          phone_height="111px"
         />
         <A.TributeText
           text="Norman Bourlaug finishes university and takes a job in the US Forestry Service"

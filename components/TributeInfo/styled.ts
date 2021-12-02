@@ -26,4 +26,10 @@ export const FormBody = styled.div<StyleProps>`
     margin-left: 0px;
     margin-right: 0px;
   }
+  @media only screen and (max-width: 500px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 `;

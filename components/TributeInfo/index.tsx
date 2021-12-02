@@ -68,6 +68,10 @@ export const TributeInfo: FC<Props> = ({ id }) => {
           top="161px"
           tab_top="153px"
           phone_top="310px"
+          tab_width="375px"
+          tab_height="292px"
+          phone_width="313px"
+          phone_height="228px"
         />
         <A.TributeText
           text="The man who saved a billion lives"
@@ -85,6 +89,7 @@ export const TributeInfo: FC<Props> = ({ id }) => {
           tab_font="24px"
           phone_left="32px"
           phone_top="157px"
+          phone_font="24px"
         />
         <Y.TributeYears
           year="1914 - 2009"

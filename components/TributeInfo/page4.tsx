@@ -27,6 +27,10 @@ export const TributePage4: FC<Props> = ({ id }) => {
           phone_left="2px"
           tab_top="478px"
           phone_top="380px"
+          tab_width="277px"
+          tab_height="206px"
+          phone_width="162px"
+          phone_height="124px"
         />
         <H.TributeTitle
           title_text="Norman Bourlaug in Mexico head a new plant pathology program"
@@ -113,6 +117,10 @@ export const TributePage4: FC<Props> = ({ id }) => {
           phone_left="200px"
           tab_top="97px"
           phone_top="127px"
+          tab_width="277px"
+          tab_height="206px"
+          phone_width="162px"
+          phone_height="124px"
         />
         <A.TributeText
           text="1938 Norman Bourlaug marries his 24-year-old wife, Margret Gibson. It is made available due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school under Stakman, who teaches him how to grow pest-resistant plants."

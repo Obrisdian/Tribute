@@ -11,34 +11,24 @@ type StyleProps = {
   right?: string;
   tab_top?: string;
   tab_left?: string;
+  tab_width?:string;
+  tab_height?:string;
   phone_top?: string;
   phone_left?: string;
+  phone_width?:string;
+  phone_height?:string;
 };
 export const Image = styled.image`
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: auto;
-  object-fit: cover;
+  height: 100%;
+  object-fit: fill;
+  object-position: 50% 50%;
   display: flex;
-  @media (min-width:500px) and (max-width: 900px) {
-    display: flex;
-    position: absolute;
-    width: 80%;
-    height: 80%;
-  }
-  @media (min-width:400px) and (max-width: 500px) {
-    display: flex;
-    position: absolute;
-    width: 40%;
-    height: 40%;
-  }
-  @media (min-width:320px) and (max-width: 400px) {
-    display: flex;
-    position: absolute;
-    width: 35%;
-    height: 35%;
-  }
+  overflow:hidden;
+  
+
 `;
 
 export const ImageBox = styled.div<StyleProps>`
@@ -54,18 +44,20 @@ export const ImageBox = styled.div<StyleProps>`
   @media only screen and (max-width: 900px) {
     display: flex;
     position: absolute;
-    width: ${(props) => props.width};
-    height: ${(props) => props.height};
+    width: ${(props) => props.tab_width};
+    height: ${(props) => props.tab_height};
     margin-left: ${(props) => props.tab_left};
     margin-top: ${(props) => props.tab_top};
+
   }
 
   @media only screen and (max-width: 600px) {
     display: flex;
     position: absolute;
-    width: ${(props) => props.width};
-    height: ${(props) => props.height};
+    width: ${(props) => props.phone_width};
+    height: ${(props) => props.phone_height};
     margin-left: ${(props) => props.phone_left};
     margin-top: ${(props) => props.phone_top};
+   
   }
 `;

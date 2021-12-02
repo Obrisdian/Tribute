@@ -96,6 +96,10 @@ export const TributePage6: FC<Props> = ({ id }) => {
           phone_left="200px"
           tab_top="297px"
           phone_top="127px"
+          tab_width="427px"
+          tab_height="285px"
+          phone_width="162px"
+          phone_height="140px"
         />
 
         <F.TributeArrow

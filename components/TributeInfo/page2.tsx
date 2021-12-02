@@ -43,6 +43,10 @@ export const TributePage2: FC<Props> = ({ id }) => {
           phone_left="2px"
           tab_top="478px"
           phone_top="380px"
+          tab_width="277px"
+          tab_height="206px"
+          phone_width="162px"
+          phone_height="124px"
         />
         <H.TributeTitle
           title_text="1933 - Norman Bourlaug Admission to the Minnesota University"
@@ -114,6 +118,10 @@ export const TributePage2: FC<Props> = ({ id }) => {
           phone_left="229px"
           tab_top="97px"
           phone_top="127px"
+          tab_width="279px"
+          tab_height="203px"
+          phone_width="159px"
+          phone_height="120px"
         />
         <A.TributeText
           text="1933 - Norman Bourlaug leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the National Youth Administration"
